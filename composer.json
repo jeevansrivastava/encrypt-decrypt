@@ -1,0 +1,16 @@
+{
+  "name": "inanzzz/encrypt-decrypt",
+  "license": "MIT",
+  "type": "library",
+  "description": "Used for encryption and decryption processes.",
+  "autoload": {
+    "psr-0": {
+      "Security\\CryptBundle": "src/"
+    }
+  },
+  "require": {
+    "php": ">=5.3.3",
+    "symfony/symfony": "2.6.*"
+  },
+  "minimum-stability": "stable"
+}

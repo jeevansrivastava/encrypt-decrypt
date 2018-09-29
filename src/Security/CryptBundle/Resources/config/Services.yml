@@ -1,0 +1,7 @@
+services:
+    security_crypt.service.cryptor:
+        class: Security\CryptBundle\Service\CryptorService
+        arguments:
+            - %security_crypt.secret%
+            - %security_crypt.algorithm%
+            - %security_crypt.mode%
